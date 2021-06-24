@@ -39,6 +39,7 @@
             this.dtpManager = new System.Windows.Forms.DateTimePicker();
             this.cmbUser = new System.Windows.Forms.ComboBox();
             this.BtnShowRegister = new System.Windows.Forms.Button();
+            this.btnOut = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -110,7 +111,10 @@
             // 
             // dtpManager
             // 
+            this.dtpManager.CalendarForeColor = System.Drawing.Color.MidnightBlue;
+            this.dtpManager.CalendarTitleForeColor = System.Drawing.Color.MidnightBlue;
             this.dtpManager.Enabled = false;
+            this.dtpManager.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.dtpManager.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dtpManager.Location = new System.Drawing.Point(-1, 430);
             this.dtpManager.Name = "dtpManager";
@@ -139,6 +143,20 @@
             this.BtnShowRegister.UseVisualStyleBackColor = false;
             this.BtnShowRegister.Click += new System.EventHandler(this.BtnShowRegister_Click);
             // 
+            // btnOut
+            // 
+            this.btnOut.BackColor = System.Drawing.Color.LightBlue;
+            this.btnOut.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnOut.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.btnOut.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.btnOut.Location = new System.Drawing.Point(702, 419);
+            this.btnOut.Name = "btnOut";
+            this.btnOut.Size = new System.Drawing.Size(97, 31);
+            this.btnOut.TabIndex = 10;
+            this.btnOut.Text = "salir";
+            this.btnOut.UseVisualStyleBackColor = false;
+            this.btnOut.Click += new System.EventHandler(this.btnOut_Click);
+            // 
             // FrmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -146,6 +164,7 @@
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.MintCream;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnOut);
             this.Controls.Add(this.BtnShowRegister);
             this.Controls.Add(this.cmbUser);
             this.Controls.Add(this.dtpManager);
@@ -167,6 +186,10 @@
             this.ResumeLayout(false);
             this.PerformLayout();
         }
+
+        private System.Windows.Forms.Button btnOut;
+
+        private System.Windows.Forms.Button btn;
 
         private System.Windows.Forms.Button BtnShowRegister;
 

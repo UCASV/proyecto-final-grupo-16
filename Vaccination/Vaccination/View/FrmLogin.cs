@@ -83,5 +83,10 @@ namespace Vaccination
             FrmRegisters form = new FrmRegisters();
             form.ShowDialog();   
         }
+
+        private void btnOut_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
