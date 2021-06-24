@@ -71,9 +71,9 @@ namespace Vaccination
             this.tableLayoutPanel1.BackColor = System.Drawing.Color.MintCream;
             this.tableLayoutPanel1.ColumnCount = 5;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 8.343868F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 27.43363F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30.97345F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 26.1694F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 31.69192F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 34.72222F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 18.05556F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 7.079646F));
             this.tableLayoutPanel1.Controls.Add(this.pictureBox1, 3, 1);
             this.tableLayoutPanel1.Controls.Add(this.label1, 1, 2);
@@ -90,8 +90,6 @@ namespace Vaccination
             this.tableLayoutPanel1.Controls.Add(this.label4, 1, 7);
             this.tableLayoutPanel1.Controls.Add(this.label6, 1, 6);
             this.tableLayoutPanel1.Controls.Add(this.txtEmail, 2, 6);
-            this.tableLayoutPanel1.Controls.Add(this.label7, 1, 9);
-            this.tableLayoutPanel1.Controls.Add(this.btnRegister, 3, 10);
             this.tableLayoutPanel1.Controls.Add(this.btnCancel, 1, 10);
             this.tableLayoutPanel1.Controls.Add(this.cmbCharge, 2, 9);
             this.tableLayoutPanel1.Controls.Add(this.label9, 3, 2);
@@ -104,6 +102,8 @@ namespace Vaccination
             this.tableLayoutPanel1.Controls.Add(this.lblCitizenRegister, 1, 1);
             this.tableLayoutPanel1.Controls.Add(this.dtpArrival, 1, 12);
             this.tableLayoutPanel1.Controls.Add(this.label15, 0, 12);
+            this.tableLayoutPanel1.Controls.Add(this.label7, 1, 9);
+            this.tableLayoutPanel1.Controls.Add(this.btnRegister, 2, 10);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(12, 22);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 13;
@@ -127,9 +127,9 @@ namespace Vaccination
             // 
             this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.Image = ((System.Drawing.Image) (resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(531, 28);
+            this.pictureBox1.Location = new System.Drawing.Point(595, 28);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(201, 122);
+            this.pictureBox1.Size = new System.Drawing.Size(137, 122);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
@@ -142,7 +142,7 @@ namespace Vaccination
             this.label1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.label1.Location = new System.Drawing.Point(69, 153);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(211, 27);
+            this.label1.Size = new System.Drawing.Size(245, 27);
             this.label1.TabIndex = 2;
             this.label1.Text = "Dui:";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -150,9 +150,9 @@ namespace Vaccination
             // txtDui
             // 
             this.txtDui.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtDui.Location = new System.Drawing.Point(286, 156);
+            this.txtDui.Location = new System.Drawing.Point(320, 156);
             this.txtDui.Name = "txtDui";
-            this.txtDui.Size = new System.Drawing.Size(239, 20);
+            this.txtDui.Size = new System.Drawing.Size(269, 20);
             this.txtDui.TabIndex = 3;
             this.txtDui.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -164,7 +164,7 @@ namespace Vaccination
             this.lblName.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.lblName.Location = new System.Drawing.Point(69, 180);
             this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(211, 31);
+            this.lblName.Size = new System.Drawing.Size(245, 31);
             this.lblName.TabIndex = 4;
             this.lblName.Text = "Nombre:";
             this.lblName.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -172,9 +172,9 @@ namespace Vaccination
             // txtName
             // 
             this.txtName.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtName.Location = new System.Drawing.Point(286, 183);
+            this.txtName.Location = new System.Drawing.Point(320, 183);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(239, 20);
+            this.txtName.Size = new System.Drawing.Size(269, 20);
             this.txtName.TabIndex = 5;
             this.txtName.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -186,9 +186,9 @@ namespace Vaccination
             this.label2.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.label2.Location = new System.Drawing.Point(69, 211);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(211, 30);
+            this.label2.Size = new System.Drawing.Size(245, 30);
             this.label2.TabIndex = 6;
-            this.label2.Text = "Direccion:";
+            this.label2.Text = "Dirección:";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // label3
@@ -199,7 +199,7 @@ namespace Vaccination
             this.label3.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.label3.Location = new System.Drawing.Point(69, 241);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(211, 27);
+            this.label3.Size = new System.Drawing.Size(245, 27);
             this.label3.TabIndex = 11;
             this.label3.Text = "Numero Telefónico:";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -207,18 +207,18 @@ namespace Vaccination
             // txtAddres
             // 
             this.txtAddres.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtAddres.Location = new System.Drawing.Point(286, 214);
+            this.txtAddres.Location = new System.Drawing.Point(320, 214);
             this.txtAddres.Name = "txtAddres";
-            this.txtAddres.Size = new System.Drawing.Size(239, 20);
+            this.txtAddres.Size = new System.Drawing.Size(269, 20);
             this.txtAddres.TabIndex = 17;
             this.txtAddres.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtPhoneNum
             // 
             this.txtPhoneNum.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtPhoneNum.Location = new System.Drawing.Point(286, 244);
+            this.txtPhoneNum.Location = new System.Drawing.Point(320, 244);
             this.txtPhoneNum.Name = "txtPhoneNum";
-            this.txtPhoneNum.Size = new System.Drawing.Size(239, 20);
+            this.txtPhoneNum.Size = new System.Drawing.Size(269, 20);
             this.txtPhoneNum.TabIndex = 18;
             this.txtPhoneNum.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -230,7 +230,7 @@ namespace Vaccination
             this.label5.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.label5.Location = new System.Drawing.Point(69, 323);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(211, 26);
+            this.label5.Size = new System.Drawing.Size(245, 26);
             this.label5.TabIndex = 13;
             this.label5.Text = "¿Tiene Alguna Enfermedad?";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -239,17 +239,17 @@ namespace Vaccination
             // 
             this.cmbDisease.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbDisease.FormattingEnabled = true;
-            this.cmbDisease.Location = new System.Drawing.Point(286, 326);
+            this.cmbDisease.Location = new System.Drawing.Point(320, 326);
             this.cmbDisease.Name = "cmbDisease";
-            this.cmbDisease.Size = new System.Drawing.Size(239, 21);
+            this.cmbDisease.Size = new System.Drawing.Size(269, 21);
             this.cmbDisease.TabIndex = 20;
             // 
             // txtAge
             // 
             this.txtAge.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtAge.Location = new System.Drawing.Point(286, 299);
+            this.txtAge.Location = new System.Drawing.Point(320, 299);
             this.txtAge.Name = "txtAge";
-            this.txtAge.Size = new System.Drawing.Size(239, 20);
+            this.txtAge.Size = new System.Drawing.Size(269, 20);
             this.txtAge.TabIndex = 19;
             this.txtAge.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -261,7 +261,7 @@ namespace Vaccination
             this.label4.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.label4.Location = new System.Drawing.Point(69, 296);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(211, 27);
+            this.label4.Size = new System.Drawing.Size(245, 27);
             this.label4.TabIndex = 12;
             this.label4.Text = "Edad:";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -274,17 +274,17 @@ namespace Vaccination
             this.label6.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.label6.Location = new System.Drawing.Point(69, 268);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(211, 28);
+            this.label6.Size = new System.Drawing.Size(245, 28);
             this.label6.TabIndex = 22;
-            this.label6.Text = "Correo Electronico:";
+            this.label6.Text = "Correo Electrónico:";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // txtEmail
             // 
             this.txtEmail.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtEmail.Location = new System.Drawing.Point(286, 271);
+            this.txtEmail.Location = new System.Drawing.Point(320, 271);
             this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(239, 20);
+            this.txtEmail.Size = new System.Drawing.Size(269, 20);
             this.txtEmail.TabIndex = 23;
             this.txtEmail.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -296,7 +296,7 @@ namespace Vaccination
             this.label7.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.label7.Location = new System.Drawing.Point(69, 349);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(211, 30);
+            this.label7.Size = new System.Drawing.Size(245, 30);
             this.label7.TabIndex = 24;
             this.label7.Text = "¿Pertenece a alguna institucion?";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -308,9 +308,9 @@ namespace Vaccination
             this.btnRegister.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRegister.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.btnRegister.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.btnRegister.Location = new System.Drawing.Point(531, 382);
+            this.btnRegister.Location = new System.Drawing.Point(320, 382);
             this.btnRegister.Name = "btnRegister";
-            this.btnRegister.Size = new System.Drawing.Size(201, 48);
+            this.btnRegister.Size = new System.Drawing.Size(269, 48);
             this.btnRegister.TabIndex = 16;
             this.btnRegister.Text = "Registrar";
             this.btnRegister.UseVisualStyleBackColor = false;
@@ -325,7 +325,7 @@ namespace Vaccination
             this.btnCancel.ForeColor = System.Drawing.Color.MidnightBlue;
             this.btnCancel.Location = new System.Drawing.Point(69, 382);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(211, 48);
+            this.btnCancel.Size = new System.Drawing.Size(245, 48);
             this.btnCancel.TabIndex = 21;
             this.btnCancel.Text = "Cancelar";
             this.btnCancel.UseVisualStyleBackColor = false;
@@ -335,9 +335,9 @@ namespace Vaccination
             // 
             this.cmbCharge.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbCharge.FormattingEnabled = true;
-            this.cmbCharge.Location = new System.Drawing.Point(286, 352);
+            this.cmbCharge.Location = new System.Drawing.Point(320, 352);
             this.cmbCharge.Name = "cmbCharge";
-            this.cmbCharge.Size = new System.Drawing.Size(239, 21);
+            this.cmbCharge.Size = new System.Drawing.Size(269, 21);
             this.cmbCharge.TabIndex = 25;
             // 
             // label9
@@ -346,9 +346,9 @@ namespace Vaccination
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.label9.ForeColor = System.Drawing.Color.Red;
             this.label9.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.label9.Location = new System.Drawing.Point(531, 153);
+            this.label9.Location = new System.Drawing.Point(595, 153);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(201, 27);
+            this.label9.Size = new System.Drawing.Size(137, 27);
             this.label9.TabIndex = 27;
             this.label9.Text = "*";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -359,9 +359,9 @@ namespace Vaccination
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.label8.ForeColor = System.Drawing.Color.Red;
             this.label8.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.label8.Location = new System.Drawing.Point(531, 180);
+            this.label8.Location = new System.Drawing.Point(595, 180);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(201, 31);
+            this.label8.Size = new System.Drawing.Size(137, 31);
             this.label8.TabIndex = 28;
             this.label8.Text = "*";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -372,9 +372,9 @@ namespace Vaccination
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.label10.ForeColor = System.Drawing.Color.Red;
             this.label10.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.label10.Location = new System.Drawing.Point(531, 211);
+            this.label10.Location = new System.Drawing.Point(595, 211);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(201, 30);
+            this.label10.Size = new System.Drawing.Size(137, 30);
             this.label10.TabIndex = 29;
             this.label10.Text = "*";
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -385,9 +385,9 @@ namespace Vaccination
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.label11.ForeColor = System.Drawing.Color.Red;
             this.label11.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.label11.Location = new System.Drawing.Point(531, 268);
+            this.label11.Location = new System.Drawing.Point(595, 268);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(201, 28);
+            this.label11.Size = new System.Drawing.Size(137, 28);
             this.label11.TabIndex = 30;
             this.label11.Text = "*";
             this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -398,9 +398,9 @@ namespace Vaccination
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.label12.ForeColor = System.Drawing.Color.Red;
             this.label12.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.label12.Location = new System.Drawing.Point(531, 296);
+            this.label12.Location = new System.Drawing.Point(595, 296);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(201, 27);
+            this.label12.Size = new System.Drawing.Size(137, 27);
             this.label12.TabIndex = 31;
             this.label12.Text = "*";
             this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -411,9 +411,9 @@ namespace Vaccination
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.label13.ForeColor = System.Drawing.Color.Red;
             this.label13.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.label13.Location = new System.Drawing.Point(531, 323);
+            this.label13.Location = new System.Drawing.Point(595, 323);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(201, 26);
+            this.label13.Size = new System.Drawing.Size(137, 26);
             this.label13.TabIndex = 32;
             this.label13.Text = "*";
             this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -424,9 +424,9 @@ namespace Vaccination
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.label14.ForeColor = System.Drawing.Color.Red;
             this.label14.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.label14.Location = new System.Drawing.Point(531, 349);
+            this.label14.Location = new System.Drawing.Point(595, 349);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(201, 30);
+            this.label14.Size = new System.Drawing.Size(137, 30);
             this.label14.TabIndex = 33;
             this.label14.Text = "*";
             this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -439,7 +439,7 @@ namespace Vaccination
             this.lblCitizenRegister.ForeColor = System.Drawing.Color.MidnightBlue;
             this.lblCitizenRegister.Location = new System.Drawing.Point(69, 25);
             this.lblCitizenRegister.Name = "lblCitizenRegister";
-            this.lblCitizenRegister.Size = new System.Drawing.Size(456, 128);
+            this.lblCitizenRegister.Size = new System.Drawing.Size(520, 128);
             this.lblCitizenRegister.TabIndex = 0;
             this.lblCitizenRegister.Text = "Recolección de datos";
             this.lblCitizenRegister.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;

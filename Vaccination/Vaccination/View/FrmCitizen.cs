@@ -48,7 +48,7 @@ namespace Vaccination
                     IdCharge = ((Charge)cmbCharge.SelectedItem).Id,
                     DateArrival = dtpArrival.Value = DateTime.Now
                 };
-
+            
                 bool Verification = txtDui.Text.Length < 7 || txtName.Text.Length < 4 || txtAddres.Text.Length < 5 || txtAge.Text.Length < 0 || txtEmail.Text.Length < 0 ;
                 if (Verification )
                 {
