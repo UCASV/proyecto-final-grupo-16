@@ -99,6 +99,7 @@ namespace Vaccination
             // 
             // cmbEffects
             // 
+            this.cmbEffects.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbEffects.FormattingEnabled = true;
             this.cmbEffects.Location = new System.Drawing.Point(192, 133);
             this.cmbEffects.Name = "cmbEffects";

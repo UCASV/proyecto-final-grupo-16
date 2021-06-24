@@ -52,3 +52,9 @@ C:\Users\marce\OneDrive\Documents\Workspaces\POO\proyecto-final-grupo-16\Vaccina
 C:\Users\marce\OneDrive\Documents\Workspaces\POO\proyecto-final-grupo-16\Vaccination\Vaccination\obj\Debug\net5.0-windows\ref\Vaccination.dll
 C:\Users\marce\OneDrive\Documents\Workspaces\POO\proyecto-final-grupo-16\Vaccination\Vaccination\obj\Debug\net5.0-windows\Vaccination.pdb
 C:\Users\marce\OneDrive\Documents\Workspaces\POO\proyecto-final-grupo-16\Vaccination\Vaccination\obj\Debug\net5.0-windows\Vaccination.genruntimeconfig.cache
+C:\Users\marce\OneDrive\Documents\Workspaces\POO\proyecto-final-grupo-16\Vaccination\Vaccination\obj\Debug\net5.0-windows\Vaccination.Frmappointment.resources
+C:\Users\marce\OneDrive\Documents\Workspaces\POO\proyecto-final-grupo-16\Vaccination\Vaccination\obj\Debug\net5.0-windows\Vaccination.Frmappointment2.resources
+C:\Users\marce\OneDrive\Documents\Workspaces\POO\proyecto-final-grupo-16\Vaccination\Vaccination\obj\Debug\net5.0-windows\Vaccination.FrmCitizen.resources
+C:\Users\marce\OneDrive\Documents\Workspaces\POO\proyecto-final-grupo-16\Vaccination\Vaccination\obj\Debug\net5.0-windows\Vaccination.FrmLogin.resources
+C:\Users\marce\OneDrive\Documents\Workspaces\POO\proyecto-final-grupo-16\Vaccination\Vaccination\obj\Debug\net5.0-windows\Vaccination.FrmRegisters.resources
+C:\Users\marce\OneDrive\Documents\Workspaces\POO\proyecto-final-grupo-16\Vaccination\Vaccination\obj\Debug\net5.0-windows\Vaccination.csproj.GenerateResource.cache

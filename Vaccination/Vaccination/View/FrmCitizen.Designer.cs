@@ -237,6 +237,7 @@ namespace Vaccination
             // 
             // cmbDisease
             // 
+            this.cmbDisease.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbDisease.FormattingEnabled = true;
             this.cmbDisease.Location = new System.Drawing.Point(286, 326);
             this.cmbDisease.Name = "cmbDisease";
@@ -332,6 +333,7 @@ namespace Vaccination
             // 
             // cmbCharge
             // 
+            this.cmbCharge.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbCharge.FormattingEnabled = true;
             this.cmbCharge.Location = new System.Drawing.Point(286, 352);
             this.cmbCharge.Name = "cmbCharge";

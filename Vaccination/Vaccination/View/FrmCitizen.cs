@@ -60,7 +60,7 @@ namespace Vaccination
                     db.SaveChanges();
                     MessageBox.Show("Ciudadano registrado!!!", "Sistema de registro - Registros", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     this.Hide();
-                    this.Close();
+                    
                    
                     Frmappointment form = new Frmappointment(txtDui.Text);
                     form.ShowDialog();
