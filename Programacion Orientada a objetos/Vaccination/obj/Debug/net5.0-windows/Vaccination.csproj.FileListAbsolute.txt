@@ -58,3 +58,5 @@ C:\Users\marce\OneDrive\Documents\Workspaces\POO\proyecto-final-grupo-16\Vaccina
 C:\Users\marce\OneDrive\Documents\Workspaces\POO\proyecto-final-grupo-16\Vaccination\Vaccination\obj\Debug\net5.0-windows\Vaccination.FrmLogin.resources
 C:\Users\marce\OneDrive\Documents\Workspaces\POO\proyecto-final-grupo-16\Vaccination\Vaccination\obj\Debug\net5.0-windows\Vaccination.FrmRegisters.resources
 C:\Users\marce\OneDrive\Documents\Workspaces\POO\proyecto-final-grupo-16\Vaccination\Vaccination\obj\Debug\net5.0-windows\Vaccination.csproj.GenerateResource.cache
+C:\Users\marce\OneDrive\Documents\Workspaces\POO\proyecto-final-grupo-16\Vaccination\Vaccination\bin\Debug\net5.0-windows\BouncyCastle.Crypto.dll
+C:\Users\marce\OneDrive\Documents\Workspaces\POO\proyecto-final-grupo-16\Vaccination\Vaccination\bin\Debug\net5.0-windows\itextsharp.dll
