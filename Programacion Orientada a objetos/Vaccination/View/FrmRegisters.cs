@@ -66,7 +66,7 @@ namespace Vaccination
                          catch (IOException ex)  
                          {  
                              fileError = true;  
-                             MessageBox.Show("It wasn't possible to write the data to the disk." + ex.Message);  
+                             MessageBox.Show("No fue posible escribir los datos en el disco." + ex.Message);  
                          }  
                      }  
                      if (!fileError)  
@@ -111,7 +111,7 @@ namespace Vaccination
                                  stream.Close();  
                              }  
   
-                             MessageBox.Show("Data exportada con exito!", "Info");  
+                             MessageBox.Show("Datos exportados con exito!", "Covid-19 - Exportando datos",MessageBoxButtons.OK,MessageBoxIcon.Information);  
                          }  
                          catch (Exception ex)  
                          {  

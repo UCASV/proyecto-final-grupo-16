@@ -5817,11 +5817,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\marce\\OneDrive\\Documents\\Workspaces\\POO\\proyecto-final-grupo-16\\Vaccination\\Vaccination\\Vaccination.csproj",
+      "projectUniqueName": "C:\\Users\\marce\\OneDrive\\Documents\\Workspaces\\POO\\proyecto-final-grupo-16\\Programacion Orientada a objetos\\Vaccination\\Vaccination.csproj",
       "projectName": "Vaccination",
-      "projectPath": "C:\\Users\\marce\\OneDrive\\Documents\\Workspaces\\POO\\proyecto-final-grupo-16\\Vaccination\\Vaccination\\Vaccination.csproj",
+      "projectPath": "C:\\Users\\marce\\OneDrive\\Documents\\Workspaces\\POO\\proyecto-final-grupo-16\\Programacion Orientada a objetos\\Vaccination\\Vaccination.csproj",
       "packagesPath": "C:\\Users\\marce\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\marce\\OneDrive\\Documents\\Workspaces\\POO\\proyecto-final-grupo-16\\Vaccination\\Vaccination\\obj\\",
+      "outputPath": "C:\\Users\\marce\\OneDrive\\Documents\\Workspaces\\POO\\proyecto-final-grupo-16\\Programacion Orientada a objetos\\Vaccination\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\marce\\AppData\\Roaming\\NuGet\\NuGet.Config"
