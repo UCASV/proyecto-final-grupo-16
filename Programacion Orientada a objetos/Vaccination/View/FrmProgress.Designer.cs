@@ -80,7 +80,7 @@ namespace Vaccination
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(292, 23);
             this.label2.TabIndex = 4;
-            this.label2.Text = "Poceso de vacunación Covid-19";
+            this.label2.Text = "Proceso de vacunación Covid-19";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // pictureBox1
