@@ -24,7 +24,7 @@ namespace Vaccination
         private void button1_Click_1(object sender, EventArgs e)
         {
             var db = new Proyecto_DB_POOContext();
-
+            
             Appointment apo = new Appointment()
             {
                 Dui = txtDuiR.Text,
@@ -49,6 +49,7 @@ namespace Vaccination
 
         private void Frmappointment_Load(object sender, EventArgs e)
         {
+            dateTimePicker2.MinDate = DateTime.Now;
             var db = new Proyecto_DB_POOContext();
             List<Cabin> cabin = db.Cabins
                 .ToList();
