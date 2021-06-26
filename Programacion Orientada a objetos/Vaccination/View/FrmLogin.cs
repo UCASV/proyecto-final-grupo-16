@@ -86,7 +86,7 @@ namespace Vaccination
 
         private void btnOut_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Application.Exit();
         }
     }
 }

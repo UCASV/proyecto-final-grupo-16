@@ -13,14 +13,17 @@ namespace Vaccination
     public partial class Frmappointment : Form
     {
         
+        
         public Frmappointment(string Dui)
         {
             InitializeComponent();
            
             txtDuiR.Text = Dui;
-
+           
         }
-        
+
+      
+
         private void button1_Click_1(object sender, EventArgs e)
         {
             var db = new Proyecto_DB_POOContext();
@@ -37,14 +40,15 @@ namespace Vaccination
                 db.Add(apo);
                 db.SaveChanges();
                 MessageBox.Show("Cita Registrada!!!", "Sistema de registro - Citas", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                this.Close();
-                MessageBox.Show("vacundo:) ","Proceso de Vacunacion - Covid-19", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.Hide();
-                this.Close();
+                FrmProgress form1 = new FrmProgress();
+                form1.ShowDialog();
                 
                 Frmappointment2 form = new Frmappointment2(txtDuiR.Text,dateTimePicker2.Value.AddDays(49));
                 form.ShowDialog();
-            }
+          
+        }
+       
 
 
         private void Frmappointment_Load(object sender, EventArgs e)
@@ -56,6 +60,12 @@ namespace Vaccination
             cbxCabin.DataSource = cabin;
             cbxCabin.DisplayMember = "AddressCabin";
             cbxCabin.ValueMember = "Id";
+           
         }
+
+
+       
     }
-    }
+}
+    
+   
