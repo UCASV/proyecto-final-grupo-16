@@ -34,13 +34,13 @@ namespace Vaccination.SqlServerContext
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-                optionsBuilder.UseSqlServer("Server=localhost\\SQLEXPRESS;Database=Proyecto_DB_POO;Trusted_Connection=true;");
+                optionsBuilder.UseSqlServer("Server=localhost;Database=Proyecto_DB_POO;Trusted_Connection=true;");
             }
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.HasAnnotation("Relational:Collation", "SQL_Latin1_General_CP1_CI_AS");
+            modelBuilder.HasAnnotation("Relational:Collation", "Modern_Spanish_CI_AS");
 
             modelBuilder.Entity<Appointment>(entity =>
             {
@@ -73,12 +73,12 @@ namespace Vaccination.SqlServerContext
                 entity.HasOne(d => d.DuiNavigation)
                     .WithMany(p => p.Appointments)
                     .HasForeignKey(d => d.Dui)
-                    .HasConstraintName("FK__APPOINTMENT__Dui__5165187F");
+                    .HasConstraintName("FK__APPOINTMENT__Dui__3F466844");
 
                 entity.HasOne(d => d.IdCabinNavigation)
                     .WithMany(p => p.Appointments)
                     .HasForeignKey(d => d.IdCabin)
-                    .HasConstraintName("FK__APPOINTME__id_ca__5070F446");
+                    .HasConstraintName("FK__APPOINTME__id_ca__3E52440B");
             });
 
             modelBuilder.Entity<Cabin>(entity =>
@@ -110,7 +110,7 @@ namespace Vaccination.SqlServerContext
             modelBuilder.Entity<CabinxCitizen>(entity =>
             {
                 entity.HasKey(e => new { e.Dui, e.IdCabin })
-                    .HasName("PK__CABINxCI__55F00C04BDF1BD68");
+                    .HasName("PK__CABINxCI__55F00C0455C80292");
 
                 entity.ToTable("CABINxCITIZEN");
 
@@ -124,13 +124,13 @@ namespace Vaccination.SqlServerContext
                     .WithMany(p => p.CabinxCitizens)
                     .HasForeignKey(d => d.Dui)
                     .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK__CABINxCITIZ__Dui__534D60F1");
+                    .HasConstraintName("FK__CABINxCITIZ__Dui__412EB0B6");
 
                 entity.HasOne(d => d.IdCabinNavigation)
                     .WithMany(p => p.CabinxCitizens)
                     .HasForeignKey(d => d.IdCabin)
                     .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK__CABINxCIT__Id_Ca__5441852A");
+                    .HasConstraintName("FK__CABINxCIT__Id_Ca__4222D4EF");
             });
 
             modelBuilder.Entity<Charge>(entity =>
@@ -147,7 +147,7 @@ namespace Vaccination.SqlServerContext
             modelBuilder.Entity<Citizen>(entity =>
             {
                 entity.HasKey(e => e.Dui)
-                    .HasName("PK__CITIZEN__C0317D904010904F");
+                    .HasName("PK__CITIZEN__C0317D909C658A03");
 
                 entity.ToTable("CITIZEN");
 
@@ -196,17 +196,17 @@ namespace Vaccination.SqlServerContext
                 entity.HasOne(d => d.IdChargeNavigation)
                     .WithMany(p => p.Citizens)
                     .HasForeignKey(d => d.IdCharge)
-                    .HasConstraintName("FK__CITIZEN__Id_Char__4D94879B");
+                    .HasConstraintName("FK__CITIZEN__Id_Char__3B75D760");
 
                 entity.HasOne(d => d.IdDiseaseNavigation)
                     .WithMany(p => p.Citizens)
                     .HasForeignKey(d => d.IdDisease)
-                    .HasConstraintName("FK__CITIZEN__Id_Dise__4F7CD00D");
+                    .HasConstraintName("FK__CITIZEN__Id_Dise__3D5E1FD2");
 
                 entity.HasOne(d => d.IdSecEffectNavigation)
                     .WithMany(p => p.Citizens)
                     .HasForeignKey(d => d.IdSecEffect)
-                    .HasConstraintName("FK__CITIZEN__Id_Sec___4E88ABD4");
+                    .HasConstraintName("FK__CITIZEN__Id_Sec___3C69FB99");
             });
 
             modelBuilder.Entity<Disease>(entity =>
@@ -250,13 +250,13 @@ namespace Vaccination.SqlServerContext
                     .WithMany(p => p.Employees)
                     .HasForeignKey(d => d.IdCabin)
                     .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK__EMPLOYEE__id_cab__4BAC3F29");
+                    .HasConstraintName("FK__EMPLOYEE__id_cab__398D8EEE");
 
                 entity.HasOne(d => d.IdTypeNavigation)
                     .WithMany(p => p.Employees)
                     .HasForeignKey(d => d.IdType)
                     .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK__EMPLOYEE__id_typ__4CA06362");
+                    .HasConstraintName("FK__EMPLOYEE__id_typ__3A81B327");
             });
 
             modelBuilder.Entity<Manager>(entity =>
@@ -283,7 +283,7 @@ namespace Vaccination.SqlServerContext
                     .WithMany(p => p.Managers)
                     .HasForeignKey(d => d.IdCabin)
                     .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK__MANAGER__id_cabi__4AB81AF0");
+                    .HasConstraintName("FK__MANAGER__id_cabi__38996AB5");
             });
 
             modelBuilder.Entity<Register>(entity =>
@@ -301,12 +301,12 @@ namespace Vaccination.SqlServerContext
                 entity.HasOne(d => d.IdCabinNavigation)
                     .WithMany(p => p.Registers)
                     .HasForeignKey(d => d.IdCabin)
-                    .HasConstraintName("FK__REGISTER__id_cab__48CFD27E");
+                    .HasConstraintName("FK__REGISTER__id_cab__36B12243");
 
                 entity.HasOne(d => d.IdManagerNavigation)
                     .WithMany(p => p.Registers)
                     .HasForeignKey(d => d.IdManager)
-                    .HasConstraintName("FK__REGISTER__id_man__49C3F6B7");
+                    .HasConstraintName("FK__REGISTER__id_man__37A5467C");
             });
 
             modelBuilder.Entity<SecondaryEffect>(entity =>

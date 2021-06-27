@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\marce\\OneDrive\\Documents\\Workspaces\\POO\\proyecto-final-grupo-16\\Programacion Orientada a objetos\\Vaccination\\Vaccination.csproj": {}
+    "C:\\Users\\kevin\\Desktop\\Proyecto POO-BD\\proyecto-final-grupo-16\\Programacion Orientada a objetos\\Vaccination\\Vaccination.csproj": {}
   },
   "projects": {
-    "C:\\Users\\marce\\OneDrive\\Documents\\Workspaces\\POO\\proyecto-final-grupo-16\\Programacion Orientada a objetos\\Vaccination\\Vaccination.csproj": {
+    "C:\\Users\\kevin\\Desktop\\Proyecto POO-BD\\proyecto-final-grupo-16\\Programacion Orientada a objetos\\Vaccination\\Vaccination.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\marce\\OneDrive\\Documents\\Workspaces\\POO\\proyecto-final-grupo-16\\Programacion Orientada a objetos\\Vaccination\\Vaccination.csproj",
+        "projectUniqueName": "C:\\Users\\kevin\\Desktop\\Proyecto POO-BD\\proyecto-final-grupo-16\\Programacion Orientada a objetos\\Vaccination\\Vaccination.csproj",
         "projectName": "Vaccination",
-        "projectPath": "C:\\Users\\marce\\OneDrive\\Documents\\Workspaces\\POO\\proyecto-final-grupo-16\\Programacion Orientada a objetos\\Vaccination\\Vaccination.csproj",
-        "packagesPath": "C:\\Users\\marce\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\marce\\OneDrive\\Documents\\Workspaces\\POO\\proyecto-final-grupo-16\\Programacion Orientada a objetos\\Vaccination\\obj\\",
+        "projectPath": "C:\\Users\\kevin\\Desktop\\Proyecto POO-BD\\proyecto-final-grupo-16\\Programacion Orientada a objetos\\Vaccination\\Vaccination.csproj",
+        "packagesPath": "C:\\Users\\kevin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kevin\\Desktop\\Proyecto POO-BD\\proyecto-final-grupo-16\\Programacion Orientada a objetos\\Vaccination\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\marce\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\kevin\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0-windows"
