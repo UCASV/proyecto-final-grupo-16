@@ -43,11 +43,13 @@ namespace Vaccination
         {
             progressBar1.Value = e.ProgressPercentage;
             label1.Text = String.Format("Vacunando...");
+            
            
         }
 
         void bgw_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
         {
+            MessageBox.Show("Primera dosis aplicada :)");
             this.Close();
         }
 

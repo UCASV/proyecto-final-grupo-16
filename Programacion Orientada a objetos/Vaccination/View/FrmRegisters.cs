@@ -10,7 +10,7 @@ namespace Vaccination
 {
     public partial class FrmRegisters : Form
     {
-        SqlConnection connection = new SqlConnection("Server=localhost;Database=Proyecto_DB_POO;Trusted_Connection=true;");
+        SqlConnection connection = new SqlConnection("Server=localhost\\SQLEXPRESS;Database=Proyecto_DB_POO;Trusted_Connection=true;");
         public FrmRegisters()
         {
             InitializeComponent();

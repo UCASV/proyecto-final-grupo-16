@@ -49,9 +49,10 @@ namespace Vaccination
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.BackgroundColor = System.Drawing.Color.Azure;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(214, 70);
+            this.dataGridView1.Location = new System.Drawing.Point(285, 86);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(729, 245);
+            this.dataGridView1.Size = new System.Drawing.Size(972, 302);
             this.dataGridView1.TabIndex = 0;
             // 
             // BtnCitizen
@@ -60,9 +61,10 @@ namespace Vaccination
             this.BtnCitizen.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnCitizen.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.BtnCitizen.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.BtnCitizen.Location = new System.Drawing.Point(30, 174);
+            this.BtnCitizen.Location = new System.Drawing.Point(40, 214);
+            this.BtnCitizen.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnCitizen.Name = "BtnCitizen";
-            this.BtnCitizen.Size = new System.Drawing.Size(163, 50);
+            this.BtnCitizen.Size = new System.Drawing.Size(217, 62);
             this.BtnCitizen.TabIndex = 1;
             this.BtnCitizen.Text = "Registros Ciudadano";
             this.BtnCitizen.UseVisualStyleBackColor = false;
@@ -74,9 +76,10 @@ namespace Vaccination
             this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.btnCancel.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.btnCancel.Location = new System.Drawing.Point(30, 377);
+            this.btnCancel.Location = new System.Drawing.Point(40, 464);
+            this.btnCancel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(117, 34);
+            this.btnCancel.Size = new System.Drawing.Size(156, 42);
             this.btnCancel.TabIndex = 3;
             this.btnCancel.Text = "Cancelar";
             this.btnCancel.UseVisualStyleBackColor = false;
@@ -88,9 +91,10 @@ namespace Vaccination
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.button1.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.button1.Location = new System.Drawing.Point(30, 265);
+            this.button1.Location = new System.Drawing.Point(40, 326);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(163, 50);
+            this.button1.Size = new System.Drawing.Size(217, 62);
             this.button1.TabIndex = 4;
             this.button1.Text = "Registros Managers";
             this.button1.UseVisualStyleBackColor = false;
@@ -101,9 +105,10 @@ namespace Vaccination
             this.btnPdf.BackColor = System.Drawing.Color.LightBlue;
             this.btnPdf.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPdf.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.btnPdf.Location = new System.Drawing.Point(805, 321);
+            this.btnPdf.Location = new System.Drawing.Point(1073, 395);
+            this.btnPdf.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnPdf.Name = "btnPdf";
-            this.btnPdf.Size = new System.Drawing.Size(128, 32);
+            this.btnPdf.Size = new System.Drawing.Size(171, 39);
             this.btnPdf.TabIndex = 5;
             this.btnPdf.Text = "Convertir PDF";
             this.btnPdf.UseVisualStyleBackColor = false;
@@ -112,18 +117,20 @@ namespace Vaccination
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(56, 107);
+            this.textBox1.Location = new System.Drawing.Point(75, 132);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(108, 20);
+            this.textBox1.Size = new System.Drawing.Size(143, 22);
             this.textBox1.TabIndex = 6;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image) (resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(170, 97);
+            this.pictureBox1.Location = new System.Drawing.Point(227, 119);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(33, 40);
+            this.pictureBox1.Size = new System.Drawing.Size(44, 49);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
@@ -131,18 +138,19 @@ namespace Vaccination
             // label1
             // 
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.label1.Location = new System.Drawing.Point(12, 107);
+            this.label1.Location = new System.Drawing.Point(16, 132);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(38, 22);
+            this.label1.Size = new System.Drawing.Size(51, 27);
             this.label1.TabIndex = 8;
             this.label1.Text = "DUI:";
             // 
             // FrmRegisters
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MintCream;
-            this.ClientSize = new System.Drawing.Size(945, 450);
+            this.ClientSize = new System.Drawing.Size(1260, 554);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.textBox1);
@@ -154,6 +162,7 @@ namespace Vaccination
             this.ForeColor = System.Drawing.Color.DarkBlue;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon) (resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FrmRegisters";
